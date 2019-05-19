@@ -107,6 +107,11 @@ class CustomDataset(utils.Dataset):
         # The VIA tool saves images in the JSON even if they don't have any
         # annotations. Skip unannotated images.
         annotations = [a for a in annotations if a['regions']]
+        annotationsFinal = annotations
+        for x in range(0, 30):
+            annotationsFinal = annotationsFinal + annotations
+
+        annotations = annotationsFinal
 
         # Add images
         for a in annotations:
