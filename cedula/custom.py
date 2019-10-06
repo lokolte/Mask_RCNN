@@ -141,10 +141,10 @@ class CustomDataset(utils.Dataset):
                 width=width, height=height,
                 polygons=polygons)
 
-            mask = self.load_mask(imageNumber)  # needs the image size to convert polygons to masks.
-            if SHOW_IMAGE_FLAG:
-                plt.imshow(mask)
-                plt.show()
+            # mask = self.load_mask(imageNumber)  # needs the image size to convert polygons to masks.
+            # if SHOW_IMAGE_FLAG:
+            #     plt.imshow(mask) # mask data must be fload
+            #     plt.show()
             imageNumber = imageNumber + 1
 
     def load_mask(self, image_id):
