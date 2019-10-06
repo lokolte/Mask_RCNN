@@ -22,7 +22,7 @@ if __name__ == '__main__':
     # dataset=/path/to/balloon/dataset weights=imagenet
 
     if FLAG_TRAINING:
-        modelToTrain.trainModel(dataset='/home/lokolte/Proyectos/git/Mask_RCNN/cedula/images', weights='coco')
+        modelToTrain.trainModel(dataset='/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images', weights='coco')
 
     # Apply color splash to an image
     # weights=/path/to/weights/file.h5 image=<URL or path to file>

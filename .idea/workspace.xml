@@ -22,11 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cedula/custom.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
-              <folding>
-                <element signature="e#1071#1080#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1034">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -55,6 +52,7 @@
       <find>args</find>
       <find>detect_and_color_splash</find>
       <find>dict</find>
+      <find>file-name</find>
       <find>arg</find>
     </findStrings>
     <dirStrings>
@@ -75,6 +73,7 @@
         <option value="$PROJECT_DIR$/tooth/controller.py" />
         <option value="$PROJECT_DIR$/cedula/script_tooth.sh" />
         <option value="$PROJECT_DIR$/cedula/controller.py" />
+        <option value="$PROJECT_DIR$/cedula/custom.py" />
       </list>
     </option>
   </component>
@@ -132,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570342181645" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570342544667" />
     <property name="last_opened_file_path" value="$USER_HOME$/virtualenvs/maskrcnn_tesis_v1" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -260,7 +259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="161" selection-start-line="161" selection-end-line="161" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -363,11 +361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cedula/custom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
-          <folding>
-            <element signature="e#1071#1080#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1034">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
         </state>
       </provider>
     </entry>
