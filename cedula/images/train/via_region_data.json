@@ -1,0 +1,2935 @@
+{
+  "005.jpg19552": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "005.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 179,
+          "name": "rect",
+          "width": 287,
+          "x": 39,
+          "y": 40
+        }
+      }
+    },
+    "size": 19552
+  },
+  "006.jpg10966": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "006.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            6,
+            181,
+            179,
+            14,
+            6
+          ],
+          "all_points_y": [
+            11,
+            8,
+            105,
+            109,
+            11
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 10966
+  },
+  "007.jpg9271": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "007.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            11,
+            268,
+            283,
+            279,
+            3,
+            2,
+            11
+          ],
+          "all_points_y": [
+            8,
+            3,
+            164,
+            171,
+            169,
+            108,
+            8
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 9271
+  },
+  "008.jpg75033": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "008.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 425,
+          "name": "rect",
+          "width": 670,
+          "x": 2,
+          "y": 4
+        }
+      }
+    },
+    "size": 75033
+  },
+  "010.jpg98835": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "010.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 566,
+          "name": "rect",
+          "width": 911,
+          "x": 3,
+          "y": 1
+        }
+      }
+    },
+    "size": 98835
+  },
+  "011.jpg7134": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "011.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 165,
+          "name": "rect",
+          "width": 271,
+          "x": 13,
+          "y": 0
+        }
+      }
+    },
+    "size": 7134
+  },
+  "013.jpg91791": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "013.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            8,
+            1,
+            3,
+            937,
+            938,
+            926,
+            921,
+            910,
+            96,
+            41,
+            25,
+            14,
+            10,
+            8
+          ],
+          "all_points_y": [
+            35,
+            567,
+            567,
+            568,
+            430,
+            25,
+            12,
+            2,
+            4,
+            6,
+            10,
+            18,
+            28,
+            35
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 91791
+  },
+  "014.JPG36012": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "014.JPG",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            92,
+            559,
+            570,
+            582,
+            574,
+            101,
+            89,
+            80,
+            81,
+            85,
+            92
+          ],
+          "all_points_y": [
+            90,
+            80,
+            87,
+            378,
+            389,
+            404,
+            402,
+            395,
+            112,
+            94,
+            90
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 36012
+  },
+  "016.jpg6761": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "016.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            33,
+            155,
+            157,
+            157,
+            30,
+            27,
+            33
+          ],
+          "all_points_y": [
+            12,
+            16,
+            19,
+            95,
+            95,
+            19,
+            12
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 6761
+  },
+  "019.jpeg45773": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "019.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 300,
+          "name": "rect",
+          "width": 419,
+          "x": 24,
+          "y": 2
+        }
+      }
+    },
+    "size": 45773
+  },
+  "020.jpg5979": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "020.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            42,
+            235,
+            245,
+            247,
+            251,
+            251,
+            246,
+            35,
+            29,
+            27,
+            32,
+            36,
+            42
+          ],
+          "all_points_y": [
+            34,
+            37,
+            42,
+            51,
+            158,
+            166,
+            170,
+            175,
+            170,
+            163,
+            44,
+            35,
+            34
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 5979
+  },
+  "021.jpeg82987": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "021.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            129,
+            129,
+            131,
+            141,
+            152,
+            688,
+            704,
+            709,
+            718,
+            709,
+            129
+          ],
+          "all_points_y": [
+            485,
+            169,
+            151,
+            142,
+            137,
+            135,
+            138,
+            156,
+            475,
+            488,
+            485
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 82987
+  },
+  "030.jpg39931": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "030.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 327,
+          "name": "rect",
+          "width": 632,
+          "x": 5,
+          "y": 5
+        }
+      }
+    },
+    "size": 39931
+  },
+  "031.jpg111541": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "031.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            36,
+            3,
+            13,
+            26,
+            904,
+            918,
+            921,
+            887,
+            878,
+            866,
+            849,
+            293,
+            196,
+            52,
+            39,
+            36
+          ],
+          "all_points_y": [
+            26,
+            545,
+            558,
+            567,
+            556,
+            544,
+            531,
+            56,
+            36,
+            29,
+            27,
+            4,
+            1,
+            2,
+            14,
+            26
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 111541
+  },
+  "033.jpg8575": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "033.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 158,
+          "name": "rect",
+          "width": 301,
+          "x": 1,
+          "y": 2
+        }
+      }
+    },
+    "size": 8575
+  },
+  "034.jpg24930": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "034.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            21,
+            21,
+            29,
+            384,
+            391,
+            389,
+            21
+          ],
+          "all_points_y": [
+            5,
+            212,
+            221,
+            223,
+            215,
+            5,
+            5
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 24930
+  },
+  "035.jpg10321": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "035.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            2,
+            7,
+            252,
+            263,
+            267,
+            275,
+            273,
+            263,
+            30,
+            20,
+            14,
+            8,
+            2
+          ],
+          "all_points_y": [
+            25,
+            14,
+            4,
+            4,
+            10,
+            126,
+            169,
+            174,
+            179,
+            179,
+            179,
+            170,
+            25
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 10321
+  },
+  "036.jpg7788": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "036.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            3,
+            13,
+            22,
+            221,
+            223,
+            3,
+            3
+          ],
+          "all_points_y": [
+            77,
+            38,
+            31,
+            57,
+            213,
+            177,
+            77
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 7788
+  },
+  "037.jpg70707": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "037.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            64,
+            39,
+            40,
+            47,
+            60,
+            772,
+            796,
+            802,
+            777,
+            765,
+            93,
+            78,
+            70,
+            64
+          ],
+          "all_points_y": [
+            51,
+            447,
+            467,
+            477,
+            483,
+            492,
+            484,
+            467,
+            60,
+            39,
+            28,
+            30,
+            40,
+            51
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 70707
+  },
+  "038.jpeg44719": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "038.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            38,
+            38,
+            42,
+            49,
+            63,
+            581,
+            599,
+            601,
+            604,
+            593,
+            574,
+            59,
+            48,
+            41,
+            38
+          ],
+          "all_points_y": [
+            97,
+            414,
+            430,
+            437,
+            442,
+            435,
+            427,
+            412,
+            104,
+            92,
+            89,
+            76,
+            80,
+            88,
+            97
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 44719
+  },
+  "039.jpg44822": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "039.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            38,
+            20,
+            19,
+            23,
+            36,
+            727,
+            730,
+            714,
+            58,
+            46,
+            38
+          ],
+          "all_points_y": [
+            38,
+            423,
+            448,
+            456,
+            465,
+            475,
+            45,
+            37,
+            18,
+            24,
+            38
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 44822
+  },
+  "040.jpg7319": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "040.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            36,
+            31,
+            33,
+            257,
+            259,
+            235,
+            218,
+            36
+          ],
+          "all_points_y": [
+            28,
+            152,
+            159,
+            139,
+            135,
+            20,
+            18,
+            28
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 7319
+  },
+  "041.jpg10829": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "041.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            34,
+            29,
+            29,
+            231,
+            235,
+            214,
+            34
+          ],
+          "all_points_y": [
+            35,
+            138,
+            144,
+            133,
+            119,
+            22,
+            35
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 10829
+  },
+  "042.png308654": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "042.png",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 349,
+          "name": "rect",
+          "width": 535,
+          "x": 30,
+          "y": 30
+        }
+      }
+    },
+    "size": 308654
+  },
+  "043.jpg51455": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "043.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            4,
+            14,
+            555,
+            570,
+            603,
+            603,
+            3,
+            4
+          ],
+          "all_points_y": [
+            48,
+            32,
+            17,
+            25,
+            335,
+            341,
+            338,
+            48
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 51455
+  },
+  "044.jpg50994": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "044.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            5,
+            10,
+            22,
+            698,
+            710,
+            719,
+            709,
+            703,
+            687,
+            38,
+            14,
+            5
+          ],
+          "all_points_y": [
+            30,
+            9,
+            2,
+            16,
+            21,
+            31,
+            428,
+            453,
+            460,
+            471,
+            449,
+            30
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 50994
+  },
+  "17.jpg7340": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "17.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            22,
+            131,
+            148,
+            151,
+            147,
+            143,
+            28,
+            23,
+            22
+          ],
+          "all_points_y": [
+            2,
+            1,
+            1,
+            3,
+            74,
+            77,
+            78,
+            74,
+            2
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 7340
+  },
+  "18.jpg5780": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "18.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            13,
+            122,
+            128,
+            129,
+            126,
+            121,
+            19,
+            13,
+            13
+          ],
+          "all_points_y": [
+            8,
+            2,
+            4,
+            11,
+            65,
+            69,
+            74,
+            71,
+            8
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 5780
+  },
+  "C3ULS7JTKVC35NQGF77WXYQEHE.jpg40439": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "C3ULS7JTKVC35NQGF77WXYQEHE.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            39,
+            13,
+            15,
+            21,
+            28,
+            611,
+            622,
+            629,
+            632,
+            620,
+            585,
+            57,
+            50,
+            44,
+            39
+          ],
+          "all_points_y": [
+            69,
+            400,
+            412,
+            421,
+            423,
+            443,
+            436,
+            428,
+            79,
+            66,
+            60,
+            50,
+            52,
+            59,
+            69
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 40439
+  },
+  "CEDULA.png340748": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "CEDULA.png",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 315,
+          "name": "rect",
+          "width": 457,
+          "x": 23,
+          "y": 21
+        }
+      }
+    },
+    "size": 340748
+  },
+  "C_LzOnEWAAE0w8l.jpg131378": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "C_LzOnEWAAE0w8l.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            42,
+            34,
+            40,
+            60,
+            1100,
+            1127,
+            1142,
+            1133,
+            1130,
+            1103,
+            1072,
+            76,
+            62,
+            50,
+            42
+          ],
+          "all_points_y": [
+            72,
+            681,
+            703,
+            719,
+            726,
+            714,
+            690,
+            80,
+            54,
+            40,
+            37,
+            26,
+            32,
+            48,
+            72
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 131378
+  },
+  "LUYNMNNEABDLHGDIF2I347MUDI.jpg51381": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "LUYNMNNEABDLHGDIF2I347MUDI.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            196,
+            184,
+            186,
+            193,
+            557,
+            567,
+            569,
+            559,
+            551,
+            207,
+            199,
+            196
+          ],
+          "all_points_y": [
+            126,
+            320,
+            333,
+            336,
+            340,
+            333,
+            322,
+            123,
+            114,
+            107,
+            116,
+            126
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 51381
+  },
+  "_970_567_1229297.jpg104905": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "_970_567_1229297.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 564,
+          "name": "rect",
+          "width": 967,
+          "x": 2,
+          "y": 1
+        }
+      }
+    },
+    "size": 104905
+  },
+  "captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg58630": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 417,
+          "name": "rect",
+          "width": 689,
+          "x": 36,
+          "y": 2
+        }
+      }
+    },
+    "size": 58630
+  },
+  "cedula-del-paraguayo-juan-de-la-cruz-galeano-mieres-que-fue-confiscada-tras-el-procedimiento-en-clorinda-_918_573_1259952.jpg98835": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "cedula-del-paraguayo-juan-de-la-cruz-galeano-mieres-que-fue-confiscada-tras-el-procedimiento-en-clorinda-_918_573_1259952.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 567,
+          "name": "rect",
+          "width": 912,
+          "x": 2,
+          "y": 3
+        }
+      }
+    },
+    "size": 98835
+  },
+  "imagefffs.jpeg9175": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "imagefffs.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            15,
+            5,
+            5,
+            7,
+            220,
+            225,
+            223,
+            220,
+            215,
+            15,
+            15
+          ],
+          "all_points_y": [
+            71,
+            173,
+            182,
+            185,
+            189,
+            184,
+            71,
+            65,
+            61,
+            65,
+            71
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 9175
+  },
+  "images.jpeg7788": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "images.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            1,
+            9,
+            12,
+            19,
+            220,
+            221,
+            2,
+            1
+          ],
+          "all_points_y": [
+            80,
+            37,
+            31,
+            29,
+            55,
+            207,
+            179,
+            80
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 7788
+  },
+  "img_0866.jpg67993": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "img_0866.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            115,
+            96,
+            100,
+            112,
+            407,
+            625,
+            631,
+            647,
+            632,
+            126,
+            115
+          ],
+          "all_points_y": [
+            56,
+            378,
+            390,
+            399,
+            419,
+            416,
+            409,
+            86,
+            67,
+            44,
+            56
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 67993
+  },
+  "whatsapp-image-2019-03-15-at-21.04.08.jpeg44719": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "whatsapp-image-2019-03-15-at-21.04.08.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            59,
+            585,
+            599,
+            606,
+            602,
+            596,
+            590,
+            57,
+            44,
+            42,
+            38,
+            52,
+            59
+          ],
+          "all_points_y": [
+            77,
+            88,
+            94,
+            121,
+            418,
+            429,
+            435,
+            444,
+            433,
+            425,
+            94,
+            77,
+            77
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 44719
+  },
+  "2019-04-10T03_01_23.357Z_image.jpg25808": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "2019-04-10T03_01_23.357Z_image.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            75,
+            77,
+            82,
+            92,
+            500,
+            510,
+            514,
+            524,
+            522,
+            515,
+            507,
+            90,
+            77,
+            75
+          ],
+          "all_points_y": [
+            326,
+            83,
+            70,
+            63,
+            61,
+            66,
+            82,
+            318,
+            326,
+            332,
+            335,
+            348,
+            334,
+            326
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 25808
+  },
+  "5VPNUA7EEZE4RDDCAQ226LHXX4.jpeg65666": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "5VPNUA7EEZE4RDDCAQ226LHXX4.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            95,
+            106,
+            115,
+            602,
+            613,
+            622,
+            624,
+            625,
+            621,
+            618,
+            611,
+            607,
+            104,
+            93,
+            89,
+            86,
+            88,
+            89,
+            95
+          ],
+          "all_points_y": [
+            57,
+            52,
+            52,
+            61,
+            61,
+            68,
+            76,
+            383,
+            390,
+            393,
+            397,
+            399,
+            400,
+            393,
+            388,
+            381,
+            77,
+            67,
+            57
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 65666
+  },
+  "66TT6ZFKG5EAVHKMT6G2ZK7IMY.jpg51154": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "66TT6ZFKG5EAVHKMT6G2ZK7IMY.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            40,
+            38,
+            42,
+            50,
+            399,
+            414,
+            419,
+            416,
+            40
+          ],
+          "all_points_y": [
+            1,
+            170,
+            182,
+            192,
+            192,
+            188,
+            181,
+            5,
+            1
+          ],
+          "name": "polygon"
+        }
+      },
+      "1": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            430,
+            441,
+            775,
+            792,
+            797,
+            791,
+            424,
+            428,
+            430
+          ],
+          "all_points_y": [
+            192,
+            200,
+            191,
+            189,
+            181,
+            1,
+            5,
+            186,
+            192
+          ],
+          "name": "polygon"
+        }
+      },
+      "2": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            39,
+            41,
+            48,
+            53,
+            401,
+            412,
+            420,
+            423,
+            418,
+            404,
+            49,
+            43,
+            39
+          ],
+          "all_points_y": [
+            411,
+            211,
+            200,
+            196,
+            198,
+            202,
+            210,
+            417,
+            425,
+            431,
+            432,
+            425,
+            411
+          ],
+          "name": "polygon"
+        }
+      },
+      "3": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            38,
+            42,
+            49,
+            401,
+            417,
+            429,
+            426,
+            38
+          ],
+          "all_points_y": [
+            586,
+            453,
+            434,
+            439,
+            442,
+            456,
+            584,
+            586
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 51154
+  },
+  "B7BANCYYOVFGFMJ6CHALRWZSCA.jpg49671": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "B7BANCYYOVFGFMJ6CHALRWZSCA.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            30,
+            55,
+            63,
+            74,
+            83,
+            640,
+            654,
+            665,
+            670,
+            693,
+            692,
+            685,
+            675,
+            51,
+            37,
+            30,
+            30
+          ],
+          "all_points_y": [
+            387,
+            48,
+            32,
+            27,
+            26,
+            31,
+            32,
+            39,
+            53,
+            400,
+            412,
+            421,
+            423,
+            420,
+            411,
+            395,
+            387
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 49671
+  },
+  "Cédula.png913689": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "Cédula.png",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            3,
+            624,
+            627,
+            1,
+            3
+          ],
+          "all_points_y": [
+            22,
+            33,
+            399,
+            401,
+            22
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 913689
+  },
+  "Djc2QKIXgAAe2vk.jpg109910": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "Djc2QKIXgAAe2vk.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            2,
+            21,
+            43,
+            1015,
+            1196,
+            1197,
+            3,
+            2
+          ],
+          "all_points_y": [
+            32,
+            19,
+            16,
+            36,
+            46,
+            670,
+            673,
+            32
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 109910
+  },
+  "FHECXMGTOVAE3CPGCLRHW2TNZE.jpg53502": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "FHECXMGTOVAE3CPGCLRHW2TNZE.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            12,
+            2,
+            2,
+            461,
+            702,
+            706,
+            203,
+            12
+          ],
+          "all_points_y": [
+            491,
+            358,
+            40,
+            3,
+            3,
+            443,
+            494,
+            491
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 53502
+  },
+  "abuelita_03.jpg102443": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "abuelita_03.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            48,
+            37,
+            34,
+            2,
+            3,
+            14,
+            21,
+            559,
+            573,
+            582,
+            585,
+            589,
+            586,
+            582,
+            48
+          ],
+          "all_points_y": [
+            376,
+            369,
+            351,
+            60,
+            37,
+            20,
+            18,
+            11,
+            16,
+            25,
+            41,
+            382,
+            391,
+            396,
+            376
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 102443
+  },
+  "cedulas-detenido-estafa.jpg73518": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "cedulas-detenido-estafa.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            69,
+            363,
+            367,
+            2,
+            3,
+            69
+          ],
+          "all_points_y": [
+            84,
+            89,
+            318,
+            323,
+            87,
+            84
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 73518
+  },
+  "evidencia-1.jpg105893": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "evidencia-1.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            123,
+            106,
+            110,
+            465,
+            474,
+            499,
+            499,
+            492,
+            136,
+            123
+          ],
+          "all_points_y": [
+            494,
+            286,
+            273,
+            242,
+            251,
+            452,
+            466,
+            471,
+            507,
+            494
+          ],
+          "name": "polygon"
+        }
+      },
+      "1": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            82,
+            73,
+            82,
+            103,
+            441,
+            448,
+            471,
+            466,
+            97,
+            86,
+            82
+          ],
+          "all_points_y": [
+            739,
+            518,
+            510,
+            509,
+            487,
+            491,
+            702,
+            725,
+            757,
+            751,
+            739
+          ],
+          "name": "polygon"
+        }
+      },
+      "2": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            82,
+            97,
+            101,
+            124,
+            466,
+            480,
+            486,
+            478,
+            475,
+            461,
+            93,
+            82
+          ],
+          "all_points_y": [
+            997,
+            768,
+            759,
+            753,
+            768,
+            769,
+            777,
+            1005,
+            1013,
+            1020,
+            1011,
+            997
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 105893
+  },
+  "imageees.jpeg8832": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "imageees.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            27,
+            30,
+            35,
+            234,
+            244,
+            248,
+            247,
+            240,
+            29,
+            27
+          ],
+          "all_points_y": [
+            156,
+            33,
+            24,
+            26,
+            30,
+            155,
+            162,
+            164,
+            162,
+            156
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 8832
+  },
+  "imagen-identidad-del-lector.jpg19596": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "imagen-identidad-del-lector.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            60,
+            52,
+            83,
+            106,
+            368,
+            378,
+            348,
+            344,
+            60
+          ],
+          "all_points_y": [
+            173,
+            160,
+            7,
+            1,
+            43,
+            53,
+            204,
+            215,
+            173
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 19596
+  },
+  "images.jpeg8852": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "images.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            146,
+            154,
+            158,
+            275,
+            277,
+            265,
+            241,
+            146
+          ],
+          "all_points_y": [
+            142,
+            70,
+            66,
+            80,
+            82,
+            145,
+            152,
+            142
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 8852
+  },
+  "imagesss.jpeg5534": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "imagesss.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            79,
+            79,
+            81,
+            227,
+            233,
+            229,
+            225,
+            79
+          ],
+          "all_points_y": [
+            120,
+            25,
+            19,
+            27,
+            32,
+            114,
+            120,
+            120
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 5534
+  },
+  "imagettt2.jpg36150": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "imagettt2.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            15,
+            4,
+            6,
+            15,
+            23,
+            470,
+            478,
+            473,
+            456,
+            15
+          ],
+          "all_points_y": [
+            293,
+            281,
+            34,
+            6,
+            3,
+            5,
+            269,
+            284,
+            290,
+            293
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 36150
+  },
+  "imagggges.jpeg7716": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "imagggges.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            29,
+            26,
+            159,
+            155,
+            29
+          ],
+          "all_points_y": [
+            97,
+            10,
+            18,
+            96,
+            97
+          ],
+          "name": "polygon"
+        }
+      },
+      "1": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            22,
+            28,
+            148,
+            154,
+            22
+          ],
+          "all_points_y": [
+            101,
+            173,
+            173,
+            102,
+            101
+          ],
+          "name": "polygon"
+        }
+      },
+      "2": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            21,
+            22,
+            132,
+            136,
+            21
+          ],
+          "all_points_y": [
+            186,
+            250,
+            246,
+            183,
+            186
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 7716
+  },
+  "lg-496482c6f0b16779244ea46f6e0db914.jpeg62067": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "lg-496482c6f0b16779244ea46f6e0db914.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            214,
+            214,
+            632,
+            632,
+            214
+          ],
+          "all_points_y": [
+            1,
+            269,
+            277,
+            1,
+            1
+          ],
+          "name": "polygon"
+        }
+      },
+      "1": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            215,
+            632,
+            633,
+            212,
+            215
+          ],
+          "all_points_y": [
+            283,
+            284,
+            493,
+            495,
+            283
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 62067
+  },
+  "maxresdefault.jpg100219": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "maxresdefault.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            178,
+            201,
+            214,
+            238,
+            1031,
+            1059,
+            1069,
+            1073,
+            1092,
+            178
+          ],
+          "all_points_y": [
+            584,
+            156,
+            135,
+            132,
+            91,
+            97,
+            115,
+            150,
+            581,
+            584
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 100219
+  },
+  "nombres-raros-dni.jpg51966": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "nombres-raros-dni.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            61,
+            60,
+            78,
+            105,
+            1179,
+            1205,
+            1221,
+            1208,
+            61
+          ],
+          "all_points_y": [
+            669,
+            85,
+            57,
+            50,
+            72,
+            83,
+            109,
+            669,
+            669
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 51966
+  },
+  "placacedula.jpg76902": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "placacedula.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            142,
+            137,
+            142,
+            431,
+            442,
+            444,
+            142
+          ],
+          "all_points_y": [
+            289,
+            129,
+            120,
+            116,
+            119,
+            288,
+            289
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 76902
+  },
+  "roban-cedulas-para-sacar-prestamos.png.jpeg27684": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "roban-cedulas-para-sacar-prestamos.png.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            339,
+            268,
+            269,
+            492,
+            500,
+            579,
+            584,
+            584,
+            339
+          ],
+          "all_points_y": [
+            376,
+            229,
+            221,
+            145,
+            144,
+            262,
+            268,
+            278,
+            376
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 27684
+  },
+  "utilizo-la-cedula-de-su-amiga-para-pedir-un-prestamo-y-fue-detenida-paraguay-com.png.jpeg37832": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "utilizo-la-cedula-de-su-amiga-para-pedir-un-prestamo-y-fue-detenida-paraguay-com.png.jpeg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            82,
+            73,
+            77,
+            344,
+            343,
+            82
+          ],
+          "all_points_y": [
+            14,
+            38,
+            173,
+            173,
+            14,
+            14
+          ],
+          "name": "polygon"
+        }
+      },
+      "1": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            78,
+            81,
+            85,
+            349,
+            356,
+            356,
+            78
+          ],
+          "all_points_y": [
+            291,
+            195,
+            189,
+            194,
+            207,
+            291,
+            291
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 37832
+  },
+  "IMG_20191005_161336.jpg4111660": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "IMG_20191005_161336.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 3243,
+          "name": "rect",
+          "width": 2106,
+          "x": 500,
+          "y": 556
+        }
+      }
+    },
+    "size": 4111660
+  },
+  "IMG_20191005_161347.jpg4097902": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "IMG_20191005_161347.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "height": 2840,
+          "name": "rect",
+          "width": 1826,
+          "x": 525,
+          "y": 867
+        }
+      }
+    },
+    "size": 4097902
+  },
+  "IMG_20191005_161427.jpg4514035": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "IMG_20191005_161427.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            561,
+            581,
+            602,
+            658,
+            2351,
+            2443,
+            2463,
+            2448,
+            2417,
+            2305,
+            648,
+            586,
+            561
+          ],
+          "all_points_y": [
+            780,
+            3631,
+            3702,
+            3728,
+            3661,
+            3616,
+            3539,
+            816,
+            750,
+            709,
+            699,
+            724,
+            780
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 4514035
+  },
+  "IMG_20191005_161457.jpg4057340": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "IMG_20191005_161457.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            495,
+            490,
+            515,
+            576,
+            2157,
+            2228,
+            2269,
+            2254,
+            2198,
+            2035,
+            586,
+            495
+          ],
+          "all_points_y": [
+            1020,
+            3677,
+            3728,
+            3753,
+            3758,
+            3728,
+            3667,
+            1045,
+            974,
+            959,
+            974,
+            1020
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 4057340
+  },
+  "IMG_20191005_161559.jpg4025079": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "IMG_20191005_161559.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            678,
+            586,
+            597,
+            643,
+            867,
+            2183,
+            2259,
+            2285,
+            2320,
+            2285,
+            750,
+            678
+          ],
+          "all_points_y": [
+            1101,
+            3565,
+            3641,
+            3682,
+            3702,
+            3718,
+            3677,
+            3605,
+            1147,
+            1071,
+            1035,
+            1101
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 4025079
+  },
+  "IMG_20191005_161608.jpg4144426": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "IMG_20191005_161608.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            1091,
+            2157,
+            2218,
+            2249,
+            2239,
+            2234,
+            2172,
+            857,
+            790,
+            770,
+            745,
+            770,
+            867,
+            1122,
+            1091
+          ],
+          "all_points_y": [
+            954,
+            933,
+            959,
+            1056,
+            3248,
+            3284,
+            3320,
+            3320,
+            3294,
+            3269,
+            1056,
+            979,
+            964,
+            959,
+            954
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 4144426
+  },
+  "IMG_20191005_161631.jpg3965140": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "IMG_20191005_161631.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            418,
+            535,
+            551,
+            612,
+            2091,
+            2167,
+            2121,
+            2050,
+            490,
+            439,
+            418
+          ],
+          "all_points_y": [
+            1066,
+            3503,
+            3580,
+            3610,
+            3554,
+            3524,
+            964,
+            923,
+            964,
+            994,
+            1066
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 3965140
+  },
+  "IMG_20191005_161637.jpg3843038": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "IMG_20191005_161637.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            464,
+            801,
+            836,
+            892,
+            2438,
+            2483,
+            2504,
+            2254,
+            2198,
+            561,
+            495,
+            464
+          ],
+          "all_points_y": [
+            994,
+            3616,
+            3667,
+            3677,
+            3457,
+            3437,
+            3391,
+            811,
+            739,
+            892,
+            938,
+            994
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 3843038
+  },
+  "IMG_20191005_161718.jpg3862085": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "IMG_20191005_161718.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            423,
+            439,
+            694,
+            724,
+            2453,
+            2494,
+            2504,
+            2473,
+            2443,
+            2381,
+            673,
+            423,
+            423
+          ],
+          "all_points_y": [
+            959,
+            3116,
+            3779,
+            3850,
+            3814,
+            3769,
+            3748,
+            653,
+            602,
+            561,
+            632,
+            923,
+            959
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 3862085
+  },
+  "IMG_20191005_161727.jpg4011703": {
+    "base64_img_data": "",
+    "file_attributes": {},
+    "filename": "IMG_20191005_161727.jpg",
+    "fileref": "",
+    "regions": {
+      "0": {
+        "region_attributes": {
+          "name": "cedula"
+        },
+        "shape_attributes": {
+          "all_points_x": [
+            535,
+            520,
+            811,
+            2366,
+            2407,
+            2346,
+            775,
+            535
+          ],
+          "all_points_y": [
+            1066,
+            3065,
+            3723,
+            3702,
+            821,
+            790,
+            750,
+            1066
+          ],
+          "name": "polygon"
+        }
+      }
+    },
+    "size": 4011703
+  }
+}

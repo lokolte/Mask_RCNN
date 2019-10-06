@@ -1,78 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a2b1974-b4df-406e-837f-2ba6fe2544cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cedula/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cedula/script_tooth.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cedula/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/cedula/custom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/10_RG049768_ARANTES_LETICIA_IASMIN.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/11_RG051544_SANTOS_CARLOS_ROBERTO_FRANCISCO_DOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/1_CORTESIA _PAIXAO_GUILHERME.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/2_PE001934_SILVA_MATEUS_FERREIRA_DE_CAMPOS_DA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/3_PE002619_POLETTI_CLARA_BEATRIZ_GOIS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/4_RG046171_BENFICA_MURILO_PEREIRA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/5_RG047203_PRADO_EMMAUEL_SILVA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/6_RG048827_CARDOSO_TATIANE_DE_ANDRADE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/7_RG049376_FERREIRA__GULHERME_TRIVELLATO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/8_RG049444_HINZ_ISABELA_POTERIO_DOS_SANTOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/9_RG049495_CASTRO_INGRID_NAYARA_DA_SILVA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/RG046171_BENFICA_MURILO_PEREIRA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/RG047203_PRADO_EMMAUEL_SILVA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/RG048827_CARDOSO_TATIANE_DE_ANDRADE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/RG049376_FERREIRA__GULHERME_TRIVELLATO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/RG049444_HINZ_ISABELA_POTERIO_DOS_SANTOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/RG049495_CASTRO_INGRID_NAYARA_DA_SILVA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/RG049768_ARANTES_LETICIA_IASMIN.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/splash/RG051544_SANTOS_CARLOS_ROBERTO_FRANCISCO_DOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/10_RG049768_ARANTES_LETICIA_IASMIN.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/11_RG051544_SANTOS_CARLOS_ROBERTO_FRANCISCO_DOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/12_CORTESIA _PAIXAO_GUILHERME.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/13_PE001934_SILVA_MATEUS_FERREIRA_DE_CAMPOS_DA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/14_PE002619_POLETTI_CLARA_BEATRIZ_GOIS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/15_RG046171_BENFICA_MURILO_PEREIRA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/16_RG047203_PRADO_EMMAUEL_SILVA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/17_RG048827_CARDOSO_TATIANE_DE_ANDRADE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/18_RG049376_FERREIRA__GULHERME_TRIVELLATO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/19_RG049444_HINZ_ISABELA_POTERIO_DOS_SANTOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/1_CORTESIA _PAIXAO_GUILHERME.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/20_RG049495_CASTRO_INGRID_NAYARA_DA_SILVA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/21_RG049768_ARANTES_LETICIA_IASMIN.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/22_RG051544_SANTOS_CARLOS_ROBERTO_FRANCISCO_DOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/2_PE001934_SILVA_MATEUS_FERREIRA_DE_CAMPOS_DA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/3_PE002619_POLETTI_CLARA_BEATRIZ_GOIS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/4_RG046171_BENFICA_MURILO_PEREIRA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/5_RG047203_PRADO_EMMAUEL_SILVA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/6_RG048827_CARDOSO_TATIANE_DE_ANDRADE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/7_RG049376_FERREIRA__GULHERME_TRIVELLATO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/8_RG049444_HINZ_ISABELA_POTERIO_DOS_SANTOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/9_RG049495_CASTRO_INGRID_NAYARA_DA_SILVA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/CORTESIA _PAIXAO_GUILHERME.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/PE001934_SILVA_MATEUS_FERREIRA_DE_CAMPOS_DA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/PE002619_POLETTI_CLARA_BEATRIZ_GOIS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG046171_BENFICA_MURILO_PEREIRA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG047203_PRADO_EMMAUEL_SILVA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG048827_CARDOSO_TATIANE_DE_ANDRADE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG049376_FERREIRA__GULHERME_TRIVELLATO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG049444_HINZ_ISABELA_POTERIO_DOS_SANTOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG049495_CASTRO_INGRID_NAYARA_DA_SILVA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG049768_ARANTES_LETICIA_IASMIN.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG050729-_SILVEIRA_MARIA_JESSICA_DA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG050732_RIBEIRO_MARIANA_SCARCELLA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG050823_GUILLEN_CAMILA_DIAS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG050904_SILVA_FRANCIS_BETMANN_DE_ALMEIDA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG050906_SILVA_TAISE_GONCALVES_PESTANA_DA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG051036_OLIVEIRA_RAQUEL_DA_PAZ_BARBOSA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG051282_BENTO_THAIS_LUCIA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG051415_SILVA_TAMIRES_JUSTINO_DA_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG051544_SANTOS_CARLOS_ROBERTO_FRANCISCO_DOS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/RG051641_LIMA_GUILHERME_MONTELO_ALVES_DE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/train/via_region_data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/val/CORTESIA _PAIXAO_GUILHERME.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/images/val/via_region_data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooth/script_tooth.sh" beforeDir="false" />
-    </list>
+    <list default="true" id="2a2b1974-b4df-406e-837f-2ba6fe2544cf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +10,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cedula/script_tooth.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -93,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cedula/custom.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-271">
-              <caret line="289" column="35" selection-start-line="289" selection-start-column="35" selection-end-line="289" selection-end-column="35" />
+            <state relative-caret-position="-241">
+              <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
               <folding>
                 <element signature="e#1071#1080#0" expanded="true" />
               </folding>
@@ -102,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cedula/controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="480">
+              <caret line="32" column="8" selection-start-line="32" selection-end-line="32" selection-end-column="112" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -188,23 +117,6 @@
               <item name="Mask_RCNN" type="462c0819:PsiDirectoryNode" />
               <item name="cedula" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Mask_RCNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mask_RCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="cedula" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mask_RCNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mask_RCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mask_RCNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mask_RCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-              <item name="balloon" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -214,7 +126,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570324153477" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570340909316" />
     <property name="last_opened_file_path" value="$USER_HOME$/virtualenvs/maskrcnn_tesis_v1" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -295,7 +207,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -431,30 +342,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cedula/controller.py">
+    <entry file="file://$PROJECT_DIR$/cedula/script_tooth.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cedula/custom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271">
-          <caret line="289" column="35" selection-start-line="289" selection-start-column="35" selection-end-line="289" selection-end-column="35" />
+        <state relative-caret-position="-241">
+          <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
           <folding>
             <element signature="e#1071#1080#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cedula/script_tooth.sh">
+    <entry file="file://$PROJECT_DIR$/cedula/controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="480">
+          <caret line="32" column="8" selection-start-line="32" selection-end-line="32" selection-end-column="112" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
