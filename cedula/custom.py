@@ -338,7 +338,13 @@ class ObjectInference:
 
         model = modellib.MaskRCNN(mode="inference", config=self.config, model_dir=self.logs)
 
-        model.load_weights(weights, by_name=True)
+        weights_path = weights
+
+        if weights.lower() == "last":
+            # Find last trained weights
+            weights_path = model.find_last()
+
+        model.load_weights(weights_path, by_name=True)
 
         # Evaluate our model
         detect_and_color_splash(model, image_path=image, video_path=video)
