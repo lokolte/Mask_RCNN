@@ -224,8 +224,8 @@ def color_splash(image, mask):
     return splash
 
 
-def detect_and_color_splash(model, image_path=None, video_path=None):
-    assert image_path or video_path
+def detect_and_color_splash(model, image_path=None):
+    assert image_path
 
     # Image or video?
     if image_path:
@@ -245,40 +245,8 @@ def detect_and_color_splash(model, image_path=None, video_path=None):
             plt.imshow(splash)
             plt.show()
         skimage.io.imsave(file_name, splash)
-    elif video_path:
-        import cv2
-        # Video capture
-        vcapture = cv2.VideoCapture(video_path)
-        width = int(vcapture.get(cv2.CAP_PROP_FRAME_WIDTH))
-        height = int(vcapture.get(cv2.CAP_PROP_FRAME_HEIGHT))
-        fps = vcapture.get(cv2.CAP_PROP_FPS)
-
-        # Define codec and create video writer
-        file_name = "splash_{:%Y%m%dT%H%M%S}.avi".format(datetime.datetime.now())
-        vwriter = cv2.VideoWriter(file_name,
-                                  cv2.VideoWriter_fourcc(*'MJPG'),
-                                  fps, (width, height))
-
-        count = 0
-        success = True
-        while success:
-            print("frame: ", count)
-            # Read next image
-            success, image = vcapture.read()
-            if success:
-                # OpenCV returns images as BGR, convert to RGB
-                image = image[..., ::-1]
-                # Detect objects
-                r = model.detect([image], verbose=0)[0]
-                # Color splash
-                splash = color_splash(image, r['masks'])
-                # RGB -> BGR to save image to video
-                splash = splash[..., ::-1]
-                # Add image to video writer
-                vwriter.write(splash)
-                count += 1
-        vwriter.release()
-    print("Saved to ", file_name)
+        print("Saved to ", file_name)
+        return r
 
 ############################################################
 #  Training
@@ -327,10 +295,9 @@ class ObjectInference:
         # Train our model
         train(model, dataset, self.config)
 
-    def splashModel(self, weights, image=None, video=None):
+    def splashModel(self, weights, image=None):
         print("Weights: ", weights)
         print("Image: ", image)
-        print("Video: ", video)
         print("Logs: ", self.logs)
 
         # Configurations
@@ -347,4 +314,4 @@ class ObjectInference:
         model.load_weights(weights_path, by_name=True)
 
         # Evaluate our model
-        detect_and_color_splash(model, image_path=image, video_path=video)
+        return detect_and_color_splash(model, image_path=image)
