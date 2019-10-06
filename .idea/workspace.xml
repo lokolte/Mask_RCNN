@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a2b1974-b4df-406e-837f-2ba6fe2544cf" name="Default Changelist" comment="" />
+    <list default="true" id="2a2b1974-b4df-406e-837f-2ba6fe2544cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cedula/images/train/via_region_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/cedula/images/train/via_region_data.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +30,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cedula/controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="255">
+              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cedula/images/train/via_region_data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="1119" column="4" selection-start-line="1119" selection-start-column="4" selection-end-line="1119" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -54,6 +65,7 @@
       <find>dict</find>
       <find>file-name</find>
       <find>arg</find>
+      <find>LUYNMNNEABDLHGDIF2I347MUDI</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -72,8 +84,9 @@
         <option value="$PROJECT_DIR$/tooth/custom.py" />
         <option value="$PROJECT_DIR$/tooth/controller.py" />
         <option value="$PROJECT_DIR$/cedula/script_tooth.sh" />
-        <option value="$PROJECT_DIR$/cedula/controller.py" />
         <option value="$PROJECT_DIR$/cedula/custom.py" />
+        <option value="$PROJECT_DIR$/cedula/controller.py" />
+        <option value="$PROJECT_DIR$/cedula/images/train/via_region_data.json" />
       </list>
     </option>
   </component>
@@ -122,6 +135,20 @@
               <item name="cedula" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Mask_RCNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mask_RCNN" type="462c0819:PsiDirectoryNode" />
+              <item name="cedula" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mask_RCNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mask_RCNN" type="462c0819:PsiDirectoryNode" />
+              <item name="cedula" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="val" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,7 +158,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570342544667" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570342714695" />
     <property name="last_opened_file_path" value="$USER_HOME$/virtualenvs/maskrcnn_tesis_v1" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -368,11 +395,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cedula/controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedula/images/train/via_region_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="1119" column="4" selection-start-line="1119" selection-start-column="4" selection-end-line="1119" selection-end-column="4" />
         </state>
       </provider>
     </entry>

@@ -1118,51 +1118,6 @@
     },
     "size": 131378
   },
-  "LUYNMNNEABDLHGDIF2I347MUDI.jpg51381": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "LUYNMNNEABDLHGDIF2I347MUDI.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "all_points_x": [
-            196,
-            184,
-            186,
-            193,
-            557,
-            567,
-            569,
-            559,
-            551,
-            207,
-            199,
-            196
-          ],
-          "all_points_y": [
-            126,
-            320,
-            333,
-            336,
-            340,
-            333,
-            322,
-            123,
-            114,
-            107,
-            116,
-            126
-          ],
-          "name": "polygon"
-        }
-      }
-    },
-    "size": 51381
-  },
   "_970_567_1229297.jpg104905": {
     "base64_img_data": "",
     "file_attributes": {},
