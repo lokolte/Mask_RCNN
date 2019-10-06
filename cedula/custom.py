@@ -117,6 +117,7 @@ class CustomDataset(utils.Dataset):
         annotations = [a for a in annotations if a['regions']]
 
         # Add images
+        imageNumber = 0
         for a in annotations:
             # Get the x, y coordinaets of points of the polygons that make up
             # the outline of each object instance. These are stores in the
@@ -140,10 +141,11 @@ class CustomDataset(utils.Dataset):
                 width=width, height=height,
                 polygons=polygons)
 
-            mask = self.load_mask(a['filename'])  # needs the image size to convert polygons to masks.
+            mask = self.load_mask(imageNumber)  # needs the image size to convert polygons to masks.
             if SHOW_IMAGE_FLAG:
                 plt.imshow(mask)
                 plt.show()
+            imageNumber = imageNumber + 1
 
     def load_mask(self, image_id):
         """Generate instance masks for an image.

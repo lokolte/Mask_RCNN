@@ -4,7 +4,6 @@
     <list default="true" id="2a2b1974-b4df-406e-837f-2ba6fe2544cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cedula/custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/cedula/custom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cedula/images/train/via_region_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/cedula/images/train/via_region_data.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
