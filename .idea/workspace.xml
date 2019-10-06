@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a2b1974-b4df-406e-837f-2ba6fe2544cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cedula/custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/cedula/custom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cedula/images/train/via_region_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/cedula/images/train/via_region_data.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,27 +11,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>sys.</find>
-      <find>sys</find>
-      <find>import coco</find>
-      <find>tooth</find>
-      <find>config</find>
-      <find>args</find>
-      <find>detect_and_color_splash</find>
-      <find>dict</find>
-      <find>file-name</find>
-      <find>LUYNMNNEABDLHGDIF2I347MUDI</find>
-      <find>IMG_20191005_161427</find>
-      <find>IMG_20191005_161608</find>
-      <find>arg</find>
-      <find>images</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
