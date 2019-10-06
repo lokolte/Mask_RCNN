@@ -1,25 +1,4 @@
 {
-  "005.jpg19552": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "005.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 179,
-          "name": "rect",
-          "width": 287,
-          "x": 39,
-          "y": 40
-        }
-      }
-    },
-    "size": 19552
-  },
   "006.jpg10966": {
     "base64_img_data": "",
     "file_attributes": {},
@@ -85,69 +64,6 @@
       }
     },
     "size": 9271
-  },
-  "008.jpg75033": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "008.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 425,
-          "name": "rect",
-          "width": 670,
-          "x": 2,
-          "y": 4
-        }
-      }
-    },
-    "size": 75033
-  },
-  "010.jpg98835": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "010.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 566,
-          "name": "rect",
-          "width": 911,
-          "x": 3,
-          "y": 1
-        }
-      }
-    },
-    "size": 98835
-  },
-  "011.jpg7134": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "011.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 165,
-          "name": "rect",
-          "width": 271,
-          "x": 13,
-          "y": 0
-        }
-      }
-    },
-    "size": 7134
   },
   "013.jpg91791": {
     "base64_img_data": "",
@@ -276,27 +192,6 @@
     },
     "size": 6761
   },
-  "019.jpeg45773": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "019.jpeg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 300,
-          "name": "rect",
-          "width": 419,
-          "x": 24,
-          "y": 2
-        }
-      }
-    },
-    "size": 45773
-  },
   "020.jpg5979": {
     "base64_img_data": "",
     "file_attributes": {},
@@ -387,27 +282,6 @@
     },
     "size": 82987
   },
-  "030.jpg39931": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "030.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 327,
-          "name": "rect",
-          "width": 632,
-          "x": 5,
-          "y": 5
-        }
-      }
-    },
-    "size": 39931
-  },
   "031.jpg111541": {
     "base64_img_data": "",
     "file_attributes": {},
@@ -460,27 +334,6 @@
       }
     },
     "size": 111541
-  },
-  "033.jpg8575": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "033.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 158,
-          "name": "rect",
-          "width": 301,
-          "x": 1,
-          "y": 2
-        }
-      }
-    },
-    "size": 8575
   },
   "034.jpg24930": {
     "base64_img_data": "",
@@ -814,27 +667,6 @@
     },
     "size": 10829
   },
-  "042.png308654": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "042.png",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 349,
-          "name": "rect",
-          "width": 535,
-          "x": 30,
-          "y": 30
-        }
-      }
-    },
-    "size": 308654
-  },
   "043.jpg51455": {
     "base64_img_data": "",
     "file_attributes": {},
@@ -1046,27 +878,6 @@
     },
     "size": 40439
   },
-  "CEDULA.png340748": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "CEDULA.png",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 315,
-          "name": "rect",
-          "width": 457,
-          "x": 23,
-          "y": 21
-        }
-      }
-    },
-    "size": 340748
-  },
   "C_LzOnEWAAE0w8l.jpg131378": {
     "base64_img_data": "",
     "file_attributes": {},
@@ -1117,69 +928,6 @@
       }
     },
     "size": 131378
-  },
-  "_970_567_1229297.jpg104905": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "_970_567_1229297.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 564,
-          "name": "rect",
-          "width": 967,
-          "x": 2,
-          "y": 1
-        }
-      }
-    },
-    "size": 104905
-  },
-  "captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg58630": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 417,
-          "name": "rect",
-          "width": 689,
-          "x": 36,
-          "y": 2
-        }
-      }
-    },
-    "size": 58630
-  },
-  "cedula-del-paraguayo-juan-de-la-cruz-galeano-mieres-que-fue-confiscada-tras-el-procedimiento-en-clorinda-_918_573_1259952.jpg98835": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "cedula-del-paraguayo-juan-de-la-cruz-galeano-mieres-que-fue-confiscada-tras-el-procedimiento-en-clorinda-_918_573_1259952.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 567,
-          "name": "rect",
-          "width": 912,
-          "x": 2,
-          "y": 3
-        }
-      }
-    },
-    "size": 98835
   },
   "imagefffs.jpeg9175": {
     "base64_img_data": "",
@@ -2447,48 +2195,6 @@
       }
     },
     "size": 37832
-  },
-  "IMG_20191005_161336.jpg4111660": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "IMG_20191005_161336.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 3243,
-          "name": "rect",
-          "width": 2106,
-          "x": 500,
-          "y": 556
-        }
-      }
-    },
-    "size": 4111660
-  },
-  "IMG_20191005_161347.jpg4097902": {
-    "base64_img_data": "",
-    "file_attributes": {},
-    "filename": "IMG_20191005_161347.jpg",
-    "fileref": "",
-    "regions": {
-      "0": {
-        "region_attributes": {
-          "name": "cedula"
-        },
-        "shape_attributes": {
-          "height": 2840,
-          "name": "rect",
-          "width": 1826,
-          "x": 525,
-          "y": 867
-        }
-      }
-    },
-    "size": 4097902
   },
   "IMG_20191005_161457.jpg4057340": {
     "base64_img_data": "",

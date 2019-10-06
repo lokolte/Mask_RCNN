@@ -1,0 +1,478 @@
+(venv) alforro@alforro-server:~/TigoCampusParty/Mask_RCNN/cedula$ python3 controller.py
+Using TensorFlow backend.
+Weights:  coco
+Dataset:  /home/alforro/TigoCampusParty/Mask_RCNN/cedula/images
+Logs:  /home/alforro/TigoCampusParty/Mask_RCNN/logs
+
+Configurations:
+BACKBONE                       resnet101
+BACKBONE_STRIDES               [4, 8, 16, 32, 64]
+BATCH_SIZE                     2
+BBOX_STD_DEV                   [0.1 0.1 0.2 0.2]
+COMPUTE_BACKBONE_SHAPE         None
+DETECTION_MAX_INSTANCES        100
+DETECTION_MIN_CONFIDENCE       0.9
+DETECTION_NMS_THRESHOLD        0.3
+FPN_CLASSIF_FC_LAYERS_SIZE     1024
+GPU_COUNT                      1
+GRADIENT_CLIP_NORM             5.0
+IMAGES_PER_GPU                 2
+IMAGE_CHANNEL_COUNT            3
+IMAGE_MAX_DIM                  1024
+IMAGE_META_SIZE                14
+IMAGE_MIN_DIM                  800
+IMAGE_MIN_SCALE                0
+IMAGE_RESIZE_MODE              square
+IMAGE_SHAPE                    [1024 1024    3]
+LEARNING_MOMENTUM              0.9
+LEARNING_RATE                  0.001
+LOSS_WEIGHTS                   {'rpn_class_loss': 1.0, 'rpn_bbox_loss': 1.0, 'mrcnn_class_loss': 1.0, 'mrcnn_bbox_loss': 1.0, 'mrcnn_mask_loss': 1.0}
+MASK_POOL_SIZE                 14
+MASK_SHAPE                     [28, 28]
+MAX_GT_INSTANCES               100
+MEAN_PIXEL                     [123.7 116.8 103.9]
+MINI_MASK_SHAPE                (56, 56)
+NAME                           cedula
+NUM_CLASSES                    2
+POOL_SIZE                      7
+POST_NMS_ROIS_INFERENCE        1000
+POST_NMS_ROIS_TRAINING         2000
+PRE_NMS_LIMIT                  6000
+ROI_POSITIVE_RATIO             0.33
+RPN_ANCHOR_RATIOS              [0.5, 1, 2]
+RPN_ANCHOR_SCALES              (32, 64, 128, 256, 512)
+RPN_ANCHOR_STRIDE              1
+RPN_BBOX_STD_DEV               [0.1 0.1 0.2 0.2]
+RPN_NMS_THRESHOLD              0.7
+RPN_TRAIN_ANCHORS_PER_IMAGE    256
+STEPS_PER_EPOCH                100
+TOP_DOWN_PYRAMID_SIZE          256
+TRAIN_BN                       False
+TRAIN_ROIS_PER_IMAGE           200
+USE_MINI_MASK                  True
+USE_RPN_ROIS                   True
+VALIDATION_STEPS               50
+WEIGHT_DECAY                   0.0001
+
+
+Loading weights  /home/alforro/TigoCampusParty/Mask_RCNN/mask_rcnn_coco.h5
+Training network heads
+
+Starting at epoch 0. LR=0.001
+
+Checkpoint Path: /home/alforro/TigoCampusParty/Mask_RCNN/logs/cedula20191006T0342/mask_rcnn_cedula_{epoch:04d}.h5
+Selecting layers to train
+fpn_c5p5               (Conv2D)
+fpn_c4p4               (Conv2D)
+fpn_c3p3               (Conv2D)
+fpn_c2p2               (Conv2D)
+fpn_p5                 (Conv2D)
+fpn_p2                 (Conv2D)
+fpn_p3                 (Conv2D)
+fpn_p4                 (Conv2D)
+In model:  rpn_model
+    rpn_conv_shared        (Conv2D)
+    rpn_class_raw          (Conv2D)
+    rpn_bbox_pred          (Conv2D)
+mrcnn_mask_conv1       (TimeDistributed)
+mrcnn_mask_bn1         (TimeDistributed)
+mrcnn_mask_conv2       (TimeDistributed)
+mrcnn_mask_bn2         (TimeDistributed)
+mrcnn_class_conv1      (TimeDistributed)
+mrcnn_class_bn1        (TimeDistributed)
+mrcnn_mask_conv3       (TimeDistributed)
+mrcnn_mask_bn3         (TimeDistributed)
+mrcnn_class_conv2      (TimeDistributed)
+mrcnn_class_bn2        (TimeDistributed)
+mrcnn_mask_conv4       (TimeDistributed)
+mrcnn_mask_bn4         (TimeDistributed)
+mrcnn_bbox_fc          (TimeDistributed)
+mrcnn_mask_deconv      (TimeDistributed)
+mrcnn_class_logits     (TimeDistributed)
+mrcnn_mask             (TimeDistributed)
+/home/alforro/TigoCampusParty/Mask_RCNN/venv/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:112: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+/home/alforro/TigoCampusParty/Mask_RCNN/venv/lib/python3.6/site-packages/keras/engine/training_generator.py:47: UserWarning: Using a generator with `use_multiprocessing=True` and multiple workers may duplicate your data. Please consider using the`keras.utils.Sequence class.
+  UserWarning('Using a generator with `use_multiprocessing=True`'
+Epoch 1/10
+ERROR:root:Error processing image {'id': '011.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/011.jpg', 'width': 302, 'height': 167, 'polygons': [{'height': 165, 'name': 'rect', 'width': 271, 'x': 13, 'y': 0}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '011.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/011.jpg', 'width': 302, 'height': 167, 'polygons': [{'height': 165, 'name': 'rect', 'width': 271, 'x': 13, 'y': 0}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '011.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/011.jpg', 'width': 302, 'height': 167, 'polygons': [{'height': 165, 'name': 'rect', 'width': 271, 'x': 13, 'y': 0}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '011.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/011.jpg', 'width': 302, 'height': 167, 'polygons': [{'height': 165, 'name': 'rect', 'width': 271, 'x': 13, 'y': 0}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '011.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/011.jpg', 'width': 302, 'height': 167, 'polygons': [{'height': 165, 'name': 'rect', 'width': 271, 'x': 13, 'y': 0}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '011.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/011.jpg', 'width': 302, 'height': 167, 'polygons': [{'height': 165, 'name': 'rect', 'width': 271, 'x': 13, 'y': 0}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '011.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/011.jpg', 'width': 302, 'height': 167, 'polygons': [{'height': 165, 'name': 'rect', 'width': 271, 'x': 13, 'y': 0}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '011.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/011.jpg', 'width': 302, 'height': 167, 'polygons': [{'height': 165, 'name': 'rect', 'width': 271, 'x': 13, 'y': 0}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'width': 760, 'height': 420, 'polygons': [{'height': 417, 'name': 'rect', 'width': 689, 'x': 36, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'CEDULA.png', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/CEDULA.png', 'width': 494, 'height': 383, 'polygons': [{'height': 315, 'name': 'rect', 'width': 457, 'x': 23, 'y': 21}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'width': 760, 'height': 420, 'polygons': [{'height': 417, 'name': 'rect', 'width': 689, 'x': 36, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'CEDULA.png', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/CEDULA.png', 'width': 494, 'height': 383, 'polygons': [{'height': 315, 'name': 'rect', 'width': 457, 'x': 23, 'y': 21}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'width': 760, 'height': 420, 'polygons': [{'height': 417, 'name': 'rect', 'width': 689, 'x': 36, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'CEDULA.png', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/CEDULA.png', 'width': 494, 'height': 383, 'polygons': [{'height': 315, 'name': 'rect', 'width': 457, 'x': 23, 'y': 21}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'width': 760, 'height': 420, 'polygons': [{'height': 417, 'name': 'rect', 'width': 689, 'x': 36, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'CEDULA.png', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/CEDULA.png', 'width': 494, 'height': 383, 'polygons': [{'height': 315, 'name': 'rect', 'width': 457, 'x': 23, 'y': 21}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'width': 760, 'height': 420, 'polygons': [{'height': 417, 'name': 'rect', 'width': 689, 'x': 36, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'CEDULA.png', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/CEDULA.png', 'width': 494, 'height': 383, 'polygons': [{'height': 315, 'name': 'rect', 'width': 457, 'x': 23, 'y': 21}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'width': 760, 'height': 420, 'polygons': [{'height': 417, 'name': 'rect', 'width': 689, 'x': 36, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'CEDULA.png', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/CEDULA.png', 'width': 494, 'height': 383, 'polygons': [{'height': 315, 'name': 'rect', 'width': 457, 'x': 23, 'y': 21}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'width': 760, 'height': 420, 'polygons': [{'height': 417, 'name': 'rect', 'width': 689, 'x': 36, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'CEDULA.png', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/CEDULA.png', 'width': 494, 'height': 383, 'polygons': [{'height': 315, 'name': 'rect', 'width': 457, 'x': 23, 'y': 21}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/captura_de_pantalla_2018-05-24_a_la(s)_08.19.45.jpg', 'width': 760, 'height': 420, 'polygons': [{'height': 417, 'name': 'rect', 'width': 689, 'x': 36, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': 'CEDULA.png', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/CEDULA.png', 'width': 494, 'height': 383, 'polygons': [{'height': 315, 'name': 'rect', 'width': 457, 'x': 23, 'y': 21}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '010.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/010.jpg', 'width': 918, 'height': 573, 'polygons': [{'height': 566, 'name': 'rect', 'width': 911, 'x': 3, 'y': 1}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '010.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/010.jpg', 'width': 918, 'height': 573, 'polygons': [{'height': 566, 'name': 'rect', 'width': 911, 'x': 3, 'y': 1}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '010.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/010.jpg', 'width': 918, 'height': 573, 'polygons': [{'height': 566, 'name': 'rect', 'width': 911, 'x': 3, 'y': 1}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'ERROR:root:Error processing image {'id': '010.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/010.jpg', 'width': 918, 'height': 573, 'polygons': [{'height': 566, 'name': 'rect', 'width': 911, 'x': 3, 'y': 1}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'ERROR:root:Error processing image {'id': '010.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/010.jpg', 'width': 918, 'height': 573, 'polygons': [{'height': 566, 'name': 'rect', 'width': 911, 'x': 3, 'y': 1}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'ERROR:root:Error processing image {'id': '010.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/010.jpg', 'width': 918, 'height': 573, 'polygons': [{'height': 566, 'name': 'rect', 'width': 911, 'x': 3, 'y': 1}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'ERROR:root:Error processing image {'id': '010.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/010.jpg', 'width': 918, 'height': 573, 'polygons': [{'height': 566, 'name': 'rect', 'width': 911, 'x': 3, 'y': 1}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'ERROR:root:Error processing image {'id': '010.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/010.jpg', 'width': 918, 'height': 573, 'polygons': [{'height': 566, 'name': 'rect', 'width': 911, 'x': 3, 'y': 1}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+
+
+
+
+
+ERROR:root:Error processing image {'id': '033.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/033.jpg', 'width': 305, 'height': 165, 'polygons': [{'height': 158, 'name': 'rect', 'width': 301, 'x': 1, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '033.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/033.jpg', 'width': 305, 'height': 165, 'polygons': [{'height': 158, 'name': 'rect', 'width': 301, 'x': 1, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '033.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/033.jpg', 'width': 305, 'height': 165, 'polygons': [{'height': 158, 'name': 'rect', 'width': 301, 'x': 1, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '033.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/033.jpg', 'width': 305, 'height': 165, 'polygons': [{'height': 158, 'name': 'rect', 'width': 301, 'x': 1, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '033.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/033.jpg', 'width': 305, 'height': 165, 'polygons': [{'height': 158, 'name': 'rect', 'width': 301, 'x': 1, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '033.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/033.jpg', 'width': 305, 'height': 165, 'polygons': [{'height': 158, 'name': 'rect', 'width': 301, 'x': 1, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '033.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/033.jpg', 'width': 305, 'height': 165, 'polygons': [{'height': 158, 'name': 'rect', 'width': 301, 'x': 1, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+ERROR:root:Error processing image {'id': '033.jpg', 'source': 'cedula', 'path': '/home/alforro/TigoCampusParty/Mask_RCNN/cedula/images/train/033.jpg', 'width': 305, 'height': 165, 'polygons': [{'height': 158, 'name': 'rect', 'width': 301, 'x': 1, 'y': 2}]}
+Traceback (most recent call last):
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1710, in data_generator
+    use_mini_mask=config.USE_MINI_MASK)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/mrcnn/model.py", line 1213, in load_image_gt
+    mask, class_ids = dataset.load_mask(image_id)
+  File "/home/alforro/TigoCampusParty/Mask_RCNN/cedula/custom.py", line 163, in load_mask
+    rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
+KeyError: 'all_points_y'
+Exception in thread Thread-7:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 405, in _handle_workers
+    pool._maintain_pool()
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 246, in _maintain_pool
+    self._repopulate_pool()
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 239, in _repopulate_pool
+    w.start()
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
