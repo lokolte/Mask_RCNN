@@ -32,10 +32,6 @@ import skimage.draw
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
-img = mpimg.imread('file-name.png')
-plt.imshow(img)
-plt.show()
-
 # Root directory of the project
 ROOT_DIR = os.path.abspath("../")
 
