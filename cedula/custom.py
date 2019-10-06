@@ -48,7 +48,7 @@ COCO_WEIGHTS_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
 DEFAULT_LOGS_DIR = os.path.join(ROOT_DIR, "logs")
 
 # Flag to show images
-SHOW_IMAGE_FLAG = True
+SHOW_IMAGE_FLAG = False
 
 ############################################################
 #  Configurations
@@ -241,11 +241,9 @@ def detect_and_color_splash(model, image_path=None):
         if SHOW_IMAGE_FLAG:
             plt.imshow(splash)
             plt.show()
-            plt.imshow(r['masks'])
-            plt.show()
         skimage.io.imsave(file_name, splash)
         print("Saved to ", file_name)
-        return r
+        return splash, r
 
 ############################################################
 #  Training
@@ -313,8 +311,8 @@ class ObjectInference:
         model.load_weights(weights_path, by_name=True)
 
         # Evaluate our model
-        splashed_image = detect_and_color_splash(model, image_path=image)
+        splashed_image, mask = detect_and_color_splash(model, image_path=image)
 
-        err = np.sum((splashed_image.astype("float") - skimage.io.imread(image).astype("float")))
+        mask = mask['masks']
 
-        return (err == 0), splashed_image
+        return splashed_image, mask

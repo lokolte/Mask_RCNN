@@ -26,9 +26,9 @@ if __name__ == '__main__':
     # Apply color splash to video using the last weights you trained
     # weights=last video=<URL or path to file>
 
-    is_cedula, splashed_image = modelToTrain.splashModel(weights='last', image='/home/lokolte/Proyectos/git/Mask_RCNN/cedula/images/splash/cedula_1.jpeg')
+    splashed_image, mask = modelToTrain.splashModel(weights='last', image='/home/lokolte/Proyectos/git/Mask_RCNN/cedula/images/splash/cedula_1.jpeg')
 
-    if is_cedula:
+    if mask:
         print("Esto es una cedula. Deteccion exitosa.")
     else:
         print("Esto no es una cedula. Deteccion fallida.")
