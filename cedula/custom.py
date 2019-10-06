@@ -241,6 +241,8 @@ def detect_and_color_splash(model, image_path=None):
         if SHOW_IMAGE_FLAG:
             plt.imshow(splash)
             plt.show()
+            plt.imshow(r['masks'])
+            plt.show()
         skimage.io.imsave(file_name, splash)
         print("Saved to ", file_name)
         return r
