@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2b1974-b4df-406e-837f-2ba6fe2544cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cedula/custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/cedula/custom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/balloon/inspect_balloon_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/samples/balloon/inspect_balloon_data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/balloon/inspect_balloon_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/samples/balloon/inspect_balloon_model.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +44,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
