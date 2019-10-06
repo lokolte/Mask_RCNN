@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
 
-    FLAG_TRAINING=True # Change to false for training
+    FLAG_TRAINING=False # Change to false for training
     SHOW_IMAGE_FLAG=True # Change to false to not display mask
 
     modelToTrain = ObjectInference()
