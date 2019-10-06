@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cedula/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/cedula/controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cedula/custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/cedula/custom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/balloon/inspect_balloon_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/samples/balloon/inspect_balloon_data.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

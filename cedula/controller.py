@@ -26,7 +26,7 @@ if __name__ == '__main__':
     # Apply color splash to video using the last weights you trained
     # weights=last video=<URL or path to file>
 
-    mask = modelToTrain.splashModel(weights='last', image='/Users/jesusaguilar/projects/git/Mask_RCNN/cedula/images/splash/cedula_1.jpeg')
+    isCedula, splashed_image = modelToTrain.splashModel(weights='last', image='/Users/jesusaguilar/projects/git/Mask_RCNN/cedula/images/splash/cedula_1.jpeg')
     if SHOW_IMAGE_FLAG:
-        plt.imshow(mask)
+        plt.imshow(splashed_image)
         plt.show()

@@ -314,4 +314,8 @@ class ObjectInference:
         model.load_weights(weights_path, by_name=True)
 
         # Evaluate our model
-        return detect_and_color_splash(model, image_path=image)
+        splashed_image = detect_and_color_splash(model, image_path=image)
+
+        err = np.sum((splashed_image.astype("float") - skimage.io.imread(image).astype("float")))
+
+        return (err == 0), splashed_image
